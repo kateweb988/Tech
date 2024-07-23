@@ -1,0 +1,566 @@
+@media screen and (max-width: 1199px)
+   .menu-btn 
+      width: 48px
+      height: 24px
+      position: absolute
+      right: 0px
+      top: 13px
+      z-index: 11
+      overflow: hidden
+   .menu-btn span 
+      width: 38px
+      height: 2px
+      position: absolute
+      top: 50%
+      left: 50%
+      transform: translate(-50%, -50%)
+      background-color: $blue
+      transition: all 0.5s
+   .menu-btn span:nth-of-type(2) 
+      top: calc(50% - 8.5px)
+      width: 38px
+      height: 2px
+   .menu-btn span:nth-of-type(3) 
+      top: calc(50% + 9.4px)
+      width: 38px
+      height: 2px
+   .menu 
+      position: fixed
+      top: 0
+      right: 0
+      width: 100%
+      height: 100%
+      padding: 60px 40px 40px
+      background: white
+      transform: translateX(500%)
+      transition: transform 0.5s
+      z-index: 7
+      overflow: hidden
+      -webkit-box-shadow: -11px 0px 28px -12px rgba(0,0,0,0.75)
+      -moz-box-shadow: -11px 0px 28px -12px rgba(0,0,0,0.75)
+      box-shadow: -11px 0px 28px -12px rgba(0,0,0,0.75)
+      ul 
+         li 
+            margin-bottom: 25px
+            a 
+               font-size: 18px
+               color: #000
+      .nav__info
+         display: block
+         padding-right: 0px
+         border-right: none 
+         text-align: left
+         margin: 40px 0
+         a 
+            text-align: left
+      .nav__btn 
+         display: flex
+   .menu.active
+      transform: translateX(0)
+   .menu-btn.active 
+      overflow: visible
+      position: fixed
+      right: 30px
+      top: 30px
+   .menu-btn.active span:nth-of-type(1) 
+      display: none
+   .menu-btn.active span:nth-of-type(2) 
+      top: 50%
+      width: 24px
+      transform: translate(-50%, 0%) rotate(45deg)
+      margin-left: 0
+   .menu-btn.active span:nth-of-type(3) 
+      width: 24px
+      top: 50%
+      transform: translate(-50%, 0%) rotate(-44deg)
+      margin-left: 0
+   .menu-btn, .menu
+      display: block
+   .nav__box ul, .nav__info, .nav__btn
+      display: none
+   .nav__box 
+      position: relative
+   .close-popup
+      top: 13%
+   h1 
+      font-size: 80px !important
+   .header__content p
+      font-size: 30px
+   .header__item span
+      font-size: 14px
+   .header__item p
+      font-size: 18px
+      margin-top: 10px
+   .header__item 
+      width: 48.52%
+      height: auto
+   .header__per:first-child
+      padding: 30px 20px
+   .header__per:nth-child(2) img
+      width: 84%
+   .about__item
+      flex-direction: column-reverse
+      align-items: center
+      &:nth-child(2n)
+         flex-direction: column
+   .about__content
+      max-width: 100%
+   .about__text
+      font-size: 20px
+      br 
+         display: none
+   .about__fig
+      display: none
+   .our__text
+      br 
+         display: none
+   .our__content h3
+      font-size: 40px
+   .contacts #map
+      width: 500px
+   .footer__box
+      padding-top: 50px
+      flex-direction: column
+      align-items: center
+      justify-content: center
+      text-align: center
+   .footer__logo
+      margin: 0 auto 30px
+      display: block
+      text-align: center
+   .footer__uls
+      left: 0
+      width: 100%
+      justify-content: center
+      margin: 40px 0
+   .footer__policy
+      margin: 0 auto 20px
+   .footer__rights
+      text-align: center
+   .footer__content
+      width: 100%
+   .footer__com
+      margin-top: 40px
+      justify-content: center
+   .contacts__item
+      margin-bottom: 20px !important
+   .about__item img
+      margin-bottom: 10px
+   .sec .about__box
+      margin-top: 20px
+   .photo .item__row a
+      width: 31.9%
+   .catalog__items .item__el
+      width: 31.1%
+   .slider-nav
+      display: none
+   .slick-dots
+      display: flex
+      justify-content: center
+      margin-top: 20px
+      li 
+         width: 52px
+         height: 2px
+         margin-right: 10px
+         overflow: hidden
+         button
+            width: 100%
+            height: 100%
+            border: none
+            background-color: #d0d0d0
+            opacity: 1
+         &:last-child
+            margin-right: 0
+      .slick-active
+         button 
+            background: $red
+   .card .header__name
+      margin-bottom: 20px
+   .card__box
+      margin: 30px 0 
+      flex-direction: column 
+      align-items: center
+   .card__info
+      padding-top: 0
+      margin: 60px 0
+      max-width: 100%
+   .card__name
+      font-size: 21px
+      margin-bottom: 20px
+   .card__text
+      font-size: 14px
+      margin-bottom: 20px
+@media ( max-width: 991px )
+   .popup__form input, .popup2__form input, .contacts input
+      font-size: 20px
+      padding-left: 10px
+   .form__item
+      height: 90px
+      input, textarea 
+         padding-bottom: 26px
+         padding-left: 20px
+      textarea
+         padding-bottom: 30px
+         padding-top: 13px
+   .btn
+      height: 90px
+      padding: 0 20px
+      font-size: 22px
+      .svg 
+         height: 70px
+   h2 
+      font-size: 60px
+   .popup__title
+      margin-bottom: 20px
+   input, textarea, select
+      -webkit-appearance: none
+      -moz-appearance: none
+      appearance: none
+   h1 
+      font-size: 60px !important
+   .form__flex
+      flex-direction: column
+   .form__flex .form__item
+      width: 100%
+   .form__item label
+      bottom: 16px
+      left: 23px
+   .close-popup
+      top: 0
+   .popup
+      padding-top: 80px
+   .header__content
+      flex-direction: column
+   .header__open
+      margin-left: 0
+      margin-top: 20px
+   .header__flex
+      flex-direction: column
+   .header__per
+      width: 100%
+   .header__per:first-child
+      border-bottom: none
+      border-right: none
+   .header__per:nth-child(2)
+      height: 280px
+   .header__per:nth-child(2) p
+      font-size: 33px
+   .header__wrap
+      padding-bottom: 80px
+   h2 
+      font-size: 40px
+   .about, .van, .our, .item, .par, .call, .contacts
+      padding: 40px 0
+   .about h2
+      margin-bottom: 20px
+   .about__item
+      padding: 25px 0
+   .van h2, .our h2
+      margin-bottom: 20px
+   .van__item
+      width: 48.5%
+   .our__box
+      padding: 30px 20px
+      flex-direction: column-reverse
+   .our__pic 
+      top: 28px
+      left: -20px
+      width: 79%
+      margin-bottom: -47px
+   .our__btn
+      margin: 0 auto
+   .item__title
+      font-size: 22px
+      margin-bottom: 20px
+   .item__row a
+      height: 250px
+   .item__video
+      height: 350px
+   .item__wrap
+      margin: 60px 0
+   .item__block
+      width: 100%
+   .item__area
+      flex-wrap: wrap 
+   .item__el
+      width: 100%
+      margin-bottom: 40px
+   .item__top img
+      object-position: left
+   .item__area
+      margin-bottom: 30px
+   .par__box
+      margin-top: 20px
+   .par__item
+      width: 48.5%
+   .call h2 img
+      display: none
+   .call h2 
+      margin-bottom: 20px
+   .contacts h2
+      margin-bottom: 25px
+   .contacts__box
+      flex-direction: column 
+      align-items: center
+   .contacts__content
+      max-width: 100% 
+      margin-bottom: 30px
+   #map 
+      width: 100% !important
+      height: 400px !important
+   .contacts__call
+      height: 100px
+   .contacts__call p
+      font-size: 18px
+   .contacts__call img
+      height: 90%
+   .contacts__call:hover img
+      margin-left: 222px
+   .header__per:first-child a
+      height: 100px
+      width: 344px
+      p 
+         font-size: 18px
+      img 
+         height: 90%
+      &:hover
+         img 
+            margin-left: 222px
+   .sert .panel__text
+      flex-direction: column 
+      align-items: center
+   .sert__image
+      margin-right: 0
+      margin-bottom: 25px
+   .cont
+      padding-bottom: 40px
+   .team
+      padding: 40px 0
+   .team__box
+      margin-top: 60px
+      flex-direction: column
+   .team__item
+      width: 100%
+      margin-bottom: 40px
+      &:last-child
+         margin-bottom: 0
+   .team__item img
+      height: auto
+   .error__fig
+      width: 63%
+   .error__pic
+      width: 100%
+      margin-bottom: 30px
+   .photo .item__row a
+      width: 31.4%
+   .catalog__items .item__el
+      width: 47.5%
+      .item__bottom
+         padding-left: 0
+         padding-right: 0
+      &:nth-child(3n)
+         margin-right: 20px
+      &:nth-child(2n)
+         margin-right: 0px
+@media screen and (max-width: 767px)
+   .menu 
+      padding-left: 20px
+   h1 
+      font-size: 40px !important
+   .header__content p
+      font-size: 18px
+   .about__item img
+      width: 100%
+   .van__item
+      width: 100%
+   .cont__row
+      flex-direction: column
+   .cont .contacts__item
+      width: 100%
+   .error__fig_1
+      left: -323px
+   .error__fig_2
+      right: -323px
+   .photo .item__row a
+      width: 30.7%
+   .catalog__box
+      flex-direction: column 
+      align-items: center
+   .catalog__menu
+      margin-right: 0
+      margin-bottom: 60px
+      flex: inherit
+      max-width: 100%
+   .catalog__items .item__el
+      width: 47.9%
+@media screen and (max-width: 576px)
+   button:active, button:focus 
+      outline: none
+   button::-moz-focus-inner 
+      border: 0
+   a:active, a:focus
+      outline: none
+   input, textarea
+      outline: none
+   input:active, textarea:active
+      outline: none
+   input:focusout
+      outline: none
+   .mm 
+      flex-direction: column 
+      align-items: center
+      justify-content: center
+      li 
+         margin-bottom: 40px !important
+         width: 100% !important
+         margin-top: 0 !important
+   .mob 
+      display: block !important
+   .header__content
+      padding: 15px 0
+   h1 
+      font-size: 33px !important
+   .header__item
+      width: 100%
+      margin-bottom: 12px
+   .header__per:first-child a, .contacts__call
+      width: 248px
+      padding-left: 10px
+   .header__per:first-child a p, .contacts__call p
+      font-size: 16px
+      margin-left: 15px
+   .header__per:first-child a img, .contacts__call img
+      width: 70px
+   .header__per:first-child a:hover img, .contacts__call:hover img
+      margin-left: 159px
+   .header__per:nth-child(2) p
+      font-size: 25px
+   .header__per:nth-child(2) img
+      width: 100%
+      top: -11px
+   h2, .our__content h3
+      font-size: 32px
+   .our__content h3
+      line-height: 120%
+      margin-bottom: 20px
+   .our__text
+      font-size: 14px
+   .our__pic
+      width: 100%
+   .item__row a
+      height: 200px
+   .item__video
+      margin: 10px 0
+   .item__video
+      height: 300px
+   .btn
+      font-size: 18px
+      padding-right: 10px
+   .item__block
+      flex-direction: column
+      position: relative
+      img 
+         width: 60px
+         margin-bottom: 20px
+   .item__block span
+      position: absolute
+      top: 10px
+      font-size: 60px
+      right: 10px
+   .item__block p
+      font-size: 18px
+      margin-left: 0
+   .par__item
+      margin-bottom: 12px
+   .form__item input, .form__item textarea
+      font-size: 18px
+   .form__item label
+      font-size: 16px
+      bottom: 19px
+   .contacts__item p, .contacts__item a
+      font-size: 18px
+      line-height: 130%
+   .contacts__item span
+      font-size: 14px
+      margin-bottom: 7px
+   .close-popup
+      width: 60px
+      height: 60px
+   .close-popup
+      margin-left: 10px
+   .page .par 
+      padding: 20px 0
+   .sert .accordeon__button
+      height: auto
+      padding: 20px 100px 20px 10px
+   .sert__image
+      height: 350px
+      border: none
+      img 
+         object-fit: contain
+   .sert__name
+      font-size: 20px
+      margin-bottom: 12px
+   .sert__text
+      font-size: 14px   
+   .sert .accordeon
+      margin-top: 30px
+   .cont__row
+      margin-top: 30px
+   .team__box
+      margin-top: 30px
+   .error
+      padding: 60px 0
+   .error__pic
+      width: 67%
+   .error__fig_2
+      right: -47.6%
+   .error__fig_1
+      left: -47%
+   .policy h1
+      font-size: 24px !important
+      margin-bottom: 30px
+   .policy__item
+      margin-bottom: 50px
+   .policy__item h2
+      font-size: 21px
+   .policy__item p
+      font-size: 16px
+   .photo .item__row a
+      width: 100%
+      margin-right: 0 !important
+   .photo h1
+      margin-bottom: 30px
+   .delivery__box
+      margin-top: 30px
+   .delivery__box p
+      font-size: 16px
+      margin-bottom: 15px
+   .delivery
+      padding-bottom: 40px
+   .catalog h1
+      margin-bottom: 30px
+   .catalog__items .item__el
+      width: 100%
+      margin-right: 0 !important
+   .catalog__nav ul li
+      width: 40px
+      height: 40px
+      a 
+         font-size: 16px
+   .catalog__prev, .catalog__next 
+      width: 40px
+      height: 40px
+   .sliderr
+      margin-right: 0
+      max-width: 100% 
+      height: 350px
+      width: 100%
+      .slick-slide
+         width: 100%
+         height: 100%
+   .card__slider
+      width: 100%
+   .card .header__name
+      font-size: 22px
+      

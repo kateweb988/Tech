@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="date=no">
+	<meta name="format-detection" content="address=no">
+	<meta name="format-detection" content="email=no">
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+	<title>Технокабель</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<!-- Favicon -->
+	<!-- <link rel="icon" href="img/shortcut.png" type="image/x-icon">
+	<link rel="shortcut icon" href="img/shortcut.png" type="image/x-icon"> -->
+	<!-- OG -->
+	<meta property="og:locale" content="ru-Ru">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="">
+	<meta property="og:description" content="">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+
+<body>
+	<div class="body-wrap page">
+		<header class="header" id="header">
+			<img src="img/bg.png" alt="" class="header__bg">
+			<nav class="nav">
+				<div class="container">
+					<div class="nav__box q">
+						<a href="main.html" class="nav__logo">
+							<img src="img/logo.svg" alt="">
+						</a>
+						<ul>
+							<li>
+								<a href="#">
+									О заводе
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Доставка
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Контакты
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Сертификаты
+								</a>
+							</li>
+						</ul>
+						<div class="nav__info">
+							<a href="tel:+74952666596" class="nav__tel">
+								+7 (495) 266-65-96
+							</a>
+							<a href="mailto:info@technocable-m.ru" class="nav__mail">
+								info@technocable-m.ru
+							</a>
+						</div>
+						<a href="#" class="nav__btn">
+							Связаться <img src="img/a1.svg" alt="" class="svg">
+						</a>
+						<div class="menu-btn">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+					</div>
+
+					<div class="menu">
+						<ul>
+							<li>
+								<a href="#">
+									О заводе
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Доставка
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Контакты
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Сертификаты
+								</a>
+							</li>
+						</ul>
+						<div class="nav__info">
+							<a href="tel:+74952666596" class="nav__tel">
+								+7 (495) 266-65-96
+							</a>
+							<a href="mailto:info@technocable-m.ru" class="nav__mail">
+								info@technocable-m.ru
+							</a>
+						</div>
+						<a href="#" class="nav__btn">
+							Связаться <img src="img/a1.svg" alt="" class="svg">
+						</a>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<section class="cont sec" id="cont">
+			<div class="container">
+				<div class="bread q">
+					<a href="main.html">
+						Главная
+					</a>
+					<a href="contacts.html">
+						Контакты
+					</a>
+				</div>
+				<h1>
+					Контакты
+				</h1>
+				<div class="cont__row q">
+					<div class="contacts__item">
+						<span>
+							Производство:
+						</span>
+						<p>
+							357301, г. Новопавловск, <br>
+							ул. Промышленная, д. 1
+						</p>
+					</div>
+					<div class="contacts__item">
+						<span>
+							Дополнительный офис продаж:
+						</span>
+						<p>
+							111024, г. Москва, <br>
+							ул. 2-я Кабельная, д. 2, стр. 9
+						</p>
+					</div>
+					<div class="contacts__item">
+						<span>
+							Наш телефон:
+						</span>
+						<a href="tel:+74952050208">
+							+7 (495) 205-02-08
+						</a>
+					</div>
+					<div class="contacts__item">
+						<span>
+							Адрес почты:
+						</span>
+						<a href="mailto:info@technocable-m.ru">
+							info@technocable-m.ru
+						</a>
+					</div>
+				</div>
+				<div id="map"></div>
+			</div>
+		</section>
+		<section class="team" id="yeam">
+			<div class="container">
+				<h2>
+					Сотрудники
+				</h2>
+				<div class="team__box q">
+					<div class="team__item">
+						<img src="img/team1.png" alt="">
+						<h3>
+							Кирилл
+							колодий
+						</h3>
+						<p>
+							Должность
+						</p>
+					</div>
+					<div class="team__item">
+						<img src="img/team2.png" alt="">
+						<h3>
+							Кирилл
+							колодий
+						</h3>
+						<p>
+							Должность
+						</p>
+					</div>
+					<div class="team__item">
+						<img src="img/team3.png" alt="">
+						<h3>
+							Кирилл
+							колодий
+						</h3>
+						<p>
+							Должность
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="call" id="call">
+			<div class="container">
+				<h2>
+					заказать провод <img src="img/rou.png" alt="">
+				</h2>
+				<form action="#" class="form js-form" id="popupResult" method="post">
+					<div class="form__item">
+						<input type="text" placeholder="Имя" name="name" class="form__field" required="">
+						<label>
+							Укажите ваше имя
+						</label>
+					</div>
+					<div class="form__flex q">
+						<div class="form__item">
+							<input type="tel" placeholder="+7 000 000 00 00" name="tel" class="tel form__field" required="">
+							<label>
+								Укажите ваш номер телефона
+							</label>
+						</div>
+						<div class="form__item">
+							<input type="email" name="email" placeholder="Почта" class="form__field" required="">
+							<label>
+								Укажите вашу почту
+							</label>
+						</div>
+					</div>
+					<button class="btn">
+						Связаться с нами <img src="img/arr.svg" alt="" class="svg">
+					</button>
+				</form>
+				<img src="img/call.png" alt="" class="call__pic">
+			</div>
+		</section>
+		<footer class="footer" id="footer">
+			<div class="container">
+				<img src="img/footer-logo.svg" alt="" class="footer__logo">
+				<div class="footer__box q">
+					<div class="footer__info">
+						<div class="contacts__item">
+							<span>
+								Наш телефон:
+							</span>
+							<a href="tel:+74952050208">
+								+7 (495) 205-02-08
+							</a>
+						</div>
+						<div class="contacts__item">
+							<span>
+								Адрес почты:
+							</span>
+							<a href="mailto:info@technocable-m.ru">
+								info@technocable-m.ru
+							</a>
+						</div>
+					</div>
+					<div class="footer__uls q">
+						<div class="footer__item">
+							<p>
+								меню
+							</p>
+							<ul>
+								<li>
+									<a href="#">
+										О заводе
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										Доставка
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										Контакты
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										Сертификаты
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__item">
+							<p>
+								каталог
+							</p>
+							<ul>
+								<li>
+									<a href="#">
+										Провода
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										Шнуры
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										Взрывной провод
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__content">
+						<p class="footer__rights">
+							© 2020-2024 ООО "Технокабельм"
+						</p>
+						<a href="#" class="footer__policy" target="_blank">
+							Политика конфиденциальности
+						</a>
+						<a href="https://gasfort.ru/" target="_blank" class="q footer__com">
+							<p>
+								Сделано в
+							</p>
+							<img src="img/com.svg" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div class="popup__bg" id="popup">
+			<div class="popup pop">
+				<img src="img/close.svg" alt="" class="close-popup">
+				<div class="popup__wrap">
+					<h2 class="popup__title">
+						обратная связь
+					</h2>
+					<form action="#" class="form js-form" id="popupResult" method="post">
+						<div class="form__item">
+							<input type="text" placeholder="Имя" name="name" class="form__field" required="">
+							<label>
+								Укажите ваше имя
+							</label>
+						</div>
+						<div class="form__flex q">
+							<div class="form__item">
+								<input type="tel" placeholder="+7 000 000 00 00" name="tel" class="tel form__field" required="">
+								<label>
+									Укажите ваш номер телефона
+								</label>
+							</div>
+							<div class="form__item">
+								<input type="email" name="email" placeholder="Почта" class="form__field" required="">
+								<label>
+									Укажите вашу почту
+								</label>
+							</div>
+						</div>
+						<button class="btn">
+							Связаться с нами <img src="img/arr.svg" alt="" class="svg">
+						</button>
+					</form>
+					<img src="img/call.png" alt="" class="call__pic">
+
+				</div>
+			</div>
+		</div>
+
+
+		<script type="text/javascript">
+			ymaps.ready(init);
+
+			function init() {
+				var myMap = new ymaps.Map("map", {
+					center: [55.773105, 37.736779],
+					zoom: 11,
+					controls: []
+				});
+
+				var myGeoObjects = [];
+
+				// Метка 1
+				myGeoObjects[0] = new ymaps.Placemark([55.773105, 37.736779], {
+					balloonContentBody: '<b>Москва, ул. Название улицы 10, офис 11 <br></b>'
+
+				}, {
+					iconLayout: 'default#image',
+					iconImageHref: '/img/map.svg',
+					iconImageSize: [112, 112],
+					iconImageOffset: [-35, -35]
+				});
+
+				// Метка 2
+				myGeoObjects[1] = new ymaps.Placemark([55.799947, 37.799068], {
+					balloonContentBody: '<b>Москва, ул. Название улицы 10, офис 11 <br></b>'
+				}, {
+					iconLayout: 'default#image',
+					iconImageHref: '/img/map.svg',
+					iconImageSize: [112, 112],
+					iconImageOffset: [-35, -35]
+				});
+				// Метка 3
+				myGeoObjects[2] = new ymaps.Placemark([55.657484, 37.731335], {
+					balloonContentBody: '<b>Москва, ул. Название улицы 10, офис 11 <br></b>'
+				}, {
+					iconLayout: 'default#image',
+					iconImageHref: '/img/map.svg',
+					iconImageSize: [30, 36],
+					iconImageOffset: [-35, -35]
+				});
+				var clusterer = new ymaps.Clusterer({
+					clusterDisableClickZoom: false,
+					clusterOpenBalloonOnClick: false,
+				});
+
+				clusterer.add(myGeoObjects);
+				myMap.geoObjects.add(clusterer);
+				myMap.behaviors.disable('scrollZoom');
+
+			}
+		</script>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js?ver=5.1"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+		<script src="js/all.js"></script>
+</body>
+
+</html>

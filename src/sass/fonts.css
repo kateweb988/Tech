@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Capture Smallz';
+    src: url('/fonts/CaptureSmallz.eot');
+    src: url('/fonts/CaptureSmallz.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/CaptureSmallz.woff2') format('woff2'),
+        url('/fonts/CaptureSmallz.woff') format('woff'),
+        url('/fonts/CaptureSmallz.ttf') format('truetype'),
+        url('/fonts/CaptureSmallz.svg#CaptureSmallz') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
